@@ -26,7 +26,7 @@ To follow the instructions detailed in the next section, you will need the follo
   - Firefox
 - A basic grasp of the syntax used for writing documents using the lightweight markup language Markdown.
 - A basic understanding on how to use a command line interface to perform operations such as changing directories and executing commands.
-- A GitHub account
+- A GitHub account for hosting a Git repository online.
 
 ## Set of instructions
 
@@ -73,9 +73,14 @@ Andrew Etter elaborates on why lightweight markup is the superior choice for for
 
 1. Create a page to store the contents of your resume using the following command: `hugo new content content/posts/resume.md`
 
-2. Use Markdown syntax to 
+2. F
 
-### Hosting your static website using a forge
+
+### Deploying your static website using GitHub Pages
+
+Now that you have generated a static website using Hugo and have hosted your resume as a page in the website, the last step is to deploy your website on the internet so that it can be viewed by others.
+
+Andrew Etter describes why static genera
 
 
 
@@ -89,12 +94,13 @@ There are several external sources available on the internet which can provide m
    - A comprehensive overview of Markdown's features and syntax. Also details features available in extended Markdown formats.
 2. [Hugo](https://gohugo.io/)
    - The homepage of the static website framework used to generate this website. Provides extensive tutorials and documentation on usage, themes, and community features.
-
+3. [Git](https://git-scm.com/docs)
+   - The reference guide for Git. Provides guides and information on common Git workflows such as cloning repositories, commiting files, switching branches, and so on. 
 
 ## FAQ
 
 **Q:** Why is Markdown better than writing raw HTML?
-- **A:** Markdown is preferred over raw HTML due to its improved readibility and ease of use as a markup language. Markdown's simple and minimial syntax ensures that 
+- **A:** Markdown is preferred over raw HTML due to its improved readibility and ease of use as a markup language. Markdown's simple and minimial syntax ensures that anyone can pick up the language and write technical documents without needing to worry about the involved syntax that raw HTML requires. The simplicity of the syntax also means that Markdown is easier to read compared raw HTML.
 
 **Q:** Where can I find and install themes that are compatible for use with Hugo static websites if I want to use a different theme for my website?
   - **A:** If you would like to personalize your own static website using a different theme, there is a dedicated showcase for publicly available themes on Hugo's [website](https://themes.gohugo.io/) that are available for download that can be used in your Hugo project.
