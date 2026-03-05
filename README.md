@@ -48,7 +48,9 @@ Andrew Etter details the importance of building a website as a means of distribu
 
 7. Test that your web site is rendering correctly by using the command: `hugo server`
    - This will open a port on localhost for you to access using your web browser
-     - **e.g.** "Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)"
+     - e.g. "Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)"
+
+You have successfully generated a static website using Hugo.
 
 ### Formatting a resume using Markdown
 
@@ -75,6 +77,7 @@ Additionally, Etter describes the importance of styling when writing technical d
 
 6. Separate sections of your resume using horizontal line breaks `---`, or `***`
 
+These are the features of Markdown used to create my resume, but there are more that you can use. Please check the Markdown Guide in the Further Resources section.
 
 ### Publishing your static website using GitHub Pages
 
@@ -122,7 +125,8 @@ Andrew Etter explains why hosting a static website is preferred over manual dist
 
 ![Commit changes button](/assets/commit_changes.png)
 
-13.  View your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
+
+You can now view your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
 
 ## Further Resources
 
