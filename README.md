@@ -12,12 +12,12 @@ The intended audience of this README is Marvin McLaren, or anyone who is interes
 
 To follow the instructions detailed in the next section, you will need the following **prerequisites**:
 
+- [Go](https://go.dev/doc/install) installed on your system
+- [Git](https://git-scm.com/install/) installed on your system
 - A text editor such as [Visual Studio Code](https://code.visualstudio.com/) to edit documents, preferrably compatible with Markdown (.md) files
-- A basic grasp of the syntax used for writing documents using the lightweight markup language Markdown.
-- A basic understanding on how to use a command line interface to perform operations such as changing directories and executing commands.
-- [Go](https://go.dev/doc/install) installed on your system.   
-- [Git](https://git-scm.com/install/) installed on your system.
-- A GitHub account for hosting a Git repository online.
+- A basic grasp of the syntax used for writing documents using the lightweight markup language Markdown
+- A basic understanding on how to use a command line interface to perform operations such as changing directories and executing commands
+- A [GitHub](https://github.com/) account for hosting a Git repository online
 
 ## Instructions
 
@@ -45,12 +45,17 @@ Andrew Etter details the importance of building a website as a means of distribu
    - e.g. `git submodule add https://github.com/hanwenguo/hugo-theme-nostyleplease.git` will install the **nostyleplease** theme used for this static website
    - Add the following line to the hugo.toml file in the root directory of the project `theme = "nostyleplease"`
 
+7. Test that your web site is rendering correctly by using the command: `hugo server`
+   - This will open a port on localhost for you to access using your web browser
+     - **e.g.** "Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)"
 
 ### Formatting a resume using Markdown
 
-Now that you've generated a static website project using Hugo, the next step is to create a piece of content that you will provide to your website. This content, specifically known as a *page* will store the contents of your resume. The most popular format for writing content is Markdown, which is a type of lightweight markup language.
+Now that you've generated a static website project using Hugo, the next step is to create a piece of content that you will provide to your website. This content, specifically referred to as a *page* will store the contents of your resume. The most popular format for writing content is Markdown, which is a type of lightweight markup language.
 
-Andrew Etter elaborates on why lightweight markup is the superior choice for formatting content on a website in his book. Notably, Etter states that lightweight markup languages provide an element of human-readability that raw languages such as XML, or HTML don't. Lightweight markup languages allow the writer to create a human readable document in a language such as Markdown, and that will then be convereted into the raw XML/HTML by the static website generator you use. Additionally, Etter describes the importance of styling when writing technical documentation, and Markdown provides ways to include text styling to emphasize certain text using inline styles, link and image support, etc.
+Andrew Etter elaborates on why lightweight markup is the superior choice for formatting content on a website in his book. Notably, Etter states that lightweight markup languages provide an element of human-readability that raw languages such as XML, or HTML don't. Lightweight markup languages allow the writer to create a human readable document in a language such as Markdown, and that will then be convereted into the raw XML/HTML by the static website generator you use.
+
+Additionally, Etter describes the importance of styling when writing technical documentation, and Markdown provides ways to include text styling to emphasize certain text using inline styles, link and image support, etc.
 
 1. Create a page to store the contents of your resume using the following command: `hugo new content content/posts/resume.md`
 
@@ -60,26 +65,51 @@ Andrew Etter elaborates on why lightweight markup is the superior choice for for
 3. Use single dashes (-) to create bulleted lists
    - You can add sub bullets by indenting the `-` bullet on the next line
 
-4. Use inline styles to highlight standout words, names, or phrases:
+4. Use inline formatting to highlight standout words, names, or phrases in your resume:
    - **Bold** standout words, names, or phrases by wrapping the text with ``**`` symbols
    - *Italicise* text by wrapping the text with `*` symbols instead
 
 5. Include links to external websites by wrapping a url inside parentheses ()
-   - **Note**: Alt-text can be added by wrapping text in square [] brackets before the parentheses.
+   - **Note**: Alt-text can be added by wrapping text in square [] brackets before the parentheses
 
 6. Separate sections of your resume using horizontal line breaks `---`, or `***`
 
 
 ### Deploying your static website using GitHub Pages
 
-Now that you have generated a static website using Hugo and have hosted your resume as a page in the website, the last step is to deploy your website on the internet so that it can be viewed by others.
+Now that you have generated a static website using Hugo and have hosted your resume as a page in the website, the last step is to deploy your website on the internet using GitHub Pages so that it can be viewed by others.
 
-Andrew Etter details why hosting a static website 
+Andrew Etter explains why hosting a static website is 
 
 1. Log into your GitHub account
-2. Create a remote repository for your project
-3. 
 
+2. Create a remote repository for your project
+   - Name the repository using the following format: `username.github.io`
+   - This ensures that the repository will be compatible with GitHub Pages
+
+3. Link the local project repository that was initialized earlier with the remote repository
+   - Use the following command while you are currently in the project directory: `git remote add origin https://github.com/username/username.github.io.git`
+     - Replace 'username' with your GitHub username
+
+4. Add all of the files in your Hugo project by using the following command: `git add -all`
+
+5. Commit (save) the changes you made to your files using the following command: `git commit -m '<commit_message>'`
+   - Replace <commit_message> with an appropriate message (**e.g.** 'Initial commit')
+
+6. Push (upload) the commits to your remote repository on GitHub using the following command: `git push origin main`
+
+7. Navigate back to the GitHub repository you created in step 2 and click on the 'Actions' menu bar on the top of the page.
+  
+8. Click the green 'New workflow' button on the left panel on the screen.
+
+9. On the 'Choose your workflow' page, use the search bar to search for 'Hugo'
+
+10. Click 'Configure' on the Hugo workflow provided by GitHub
+    - This will generate a `username.github.io/.github/hugo.yml` file in the remote project source tree.
+  
+11. Click the green 'Commit changes...' button on the right side of the screen to save the changes.
+
+This process creates a GitHub Action workflow that will automatically deploy your website anytime a change is made and pushed to the remote repository. You will be able to view your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
 
 ## Further Resources
 
@@ -102,9 +132,14 @@ There are several external sources available on the internet which can provide m
 
 **Q:** Where can I find and install themes that are compatible for use with Hugo static websites if I want to use a different theme for my website?
   - **A:** If you would like to personalize your own static website using a different theme, there is a dedicated showcase for publicly available themes on Hugo's [website](https://themes.gohugo.io/) that are available for download that can be used in your Hugo project.
-        
-## Credits
 
+## Credits
 - The third-party theme used for this static website is [nostyleplease](https://github.com/hanwenguo/hugo-theme-nostyleplease), provided under the MIT License.
-- Peer reviewed by:
+  
+- Referenced class readings:
+  - Andrew Etter's *Modern Technical Writing*
+  - Chapter 8 of William S. Pfeiffer's *Technical Communication: A Practical Approach*.
+  
+- Peer reviewed in class by my group members:
   - Jade Lee
+  - Ji Min Ryu
