@@ -12,8 +12,6 @@ The intended audience of this README is Marvin McLaren, or anyone who is interes
 
 ## Prerequisites
 
-![test](/assets/hugo_version.png)
-
 To follow the instructions detailed in the next section, need the following **prerequisites**:
 
 - [Go](https://go.dev/doc/install) installed on your system
