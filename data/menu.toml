@@ -1,0 +1,22 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "COMP 2600"
+
+  [[entries.entries]]
+  title = "Assignment 2"
+
+  [[entries.entries]]
+  title = "This is the static site I have generated using Hugo. It simply hosts the deliverables for this assignment: a README.md and my resume. "
+
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+

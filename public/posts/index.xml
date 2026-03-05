@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Static Website for A2</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My Static Website for A2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Feb 2026 19:04:53 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>README.md</title>
+      <link>http://localhost:1313/posts/readme/</link>
+      <pubDate>Tue, 24 Feb 2026 19:04:53 -0600</pubDate>
+      <guid>http://localhost:1313/posts/readme/</guid>
+      <description>&lt;h2 id=&#34;statement-of-purpose&#34;&gt;Statement of purpose&lt;/h2&gt;&#xA;&lt;p&gt;This README intends to describe the technical process used to host a Markdown-formatted resume on a statically generated website.&lt;/p&gt;&#xA;&lt;p&gt;It will do so by connecting the technical writing methodologies and principles described in the course readings. Specifically:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Andrew Etter&amp;rsquo;s &lt;em&gt;Modern Technical Writing&lt;/em&gt;, and&lt;/li&gt;&#xA;&lt;li&gt;Chapter 8 of William S. Pfeiffer&amp;rsquo;s &lt;em&gt;Technical Communication: A Practical Approach&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The intended audience of this README is Marvin McLaren, or anyone who is interested in technical writing and meets the technical prerequisites listed in the next section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/posts/resume/</link>
+      <pubDate>Tue, 24 Feb 2026 19:04:43 -0600</pubDate>
+      <guid>http://localhost:1313/posts/resume/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;harkeet-bal&#34;&gt;Harkeet Bal&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;204-997-6190&lt;/strong&gt; | &lt;strong&gt;&lt;a href=&#34;mailto:balh@myumanitoba.ca&#34;&gt;balh@myumanitoba.ca&lt;/a&gt;&lt;/strong&gt; | &lt;a href=&#34;https://github.com/harkeetb&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;p&gt;B.Sc. Computer Science, Minor in Statistics | Sept 2021 - Dec 2026&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;University of Manitoba&lt;/em&gt; | Winnipeg, MB&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Awards:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;UM Guertin Centennial Entrance Award (Tier 2)&lt;/li&gt;&#xA;&lt;li&gt;Dean&amp;rsquo;s Honour List&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Python, SQL, Java, R, TypeScript, C#, C/C++&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Frameworks:&lt;/strong&gt; PyTorch, Apache Airflow, .NET, Vue.js, Spring Boot&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tools &amp;amp; Databases:&lt;/strong&gt; Git, Docker, Oracle, Snowflake, PostgreSQL&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;industry-experience&#34;&gt;Industry Experience&lt;/h2&gt;&#xA;&lt;h3 id=&#34;data-engineer--sept-2024---aug-2025&#34;&gt;Data Engineer | Sept 2024 - Aug 2025&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Richardson International&lt;/strong&gt; | Winnipeg, MB&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
