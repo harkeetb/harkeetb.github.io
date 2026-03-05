@@ -73,11 +73,11 @@ Additionally, Etter describes the importance of styling when writing technical d
 6. Separate sections of your resume using horizontal line breaks `---`, or `***`
 
 
-### Deploying your static website using GitHub Pages
+### Publishing your static website using GitHub Pages
 
-Now that you have generated a static website using Hugo and have hosted your resume as a page in the website, the last step is to deploy your website on the internet using GitHub Pages so that it can be viewed by others.
+Now that you have generated a static website using Hugo and have hosted your resume as a page in the website, the last step is to publish your website on the internet using GitHub Pages so that it can be viewed by others.
 
-Andrew Etter explains why hosting a static website is preferred over manual distribution in their book by the principle: "Make Static Websites". Websites can be hosted on a variety of services such as GitHub Pages with little computing strain on your end. Websites can easily be migrated to other services because of this, as all you need to do is carry over the source tree of your project. Additionally, they support automated regeneration via workflows such as GitHub Actions, which updates the published website automatically when changes are made to the Git repository.
+Andrew Etter explains why hosting a static website is preferred over manual distribution by the principle: "Make Static Websites". Websites can be hosted on a variety of services such as GitHub Pages with little computing strain on your end. Websites can easily be migrated to other services because of this, as all you need to do is carry over the source tree of your project. Additionally, they support automated re-generation via workflows such as GitHub Actions, which update the published website automatically when changes are made to content.
 
 1. [Log in](https://github.com/login) to your GitHub account
 
@@ -126,19 +126,19 @@ There are external sources available on the internet which can provide more info
 ## FAQ
 
 **Q:** Why is Markdown better than writing raw HTML?
-- **A:** Markdown is preferred over raw HTML due to its improved readibility and ease of use as a markup language. Markdown's simple and minimial syntax ensures that anyone can pick up the language and write technical documents without needing to worry about the involved syntax that raw HTML requires. The simplicity of the syntax also means that Markdown is easier to read compared raw HTML.
+- **A:** Markdown is preferred over raw HTML due to its improved readibility and ease of use as a markup language. Markdown's minimial syntax ensures that anyone can pick up the language and write technical documents without worrying about the verbose syntax that raw HTML requires. The simplicity also results in Markdown being perceived as easier to read.
 
-**Q:** Where can I find and install themes that are compatible for use with Hugo static websites if I want to use a different theme for my website?
+**Q:** Where can I find themes that are compatible with Hugo static websites if I want to use a different theme for my website?
   - **A:** If you would like to personalize your own static website using a different theme, there is a dedicated showcase for publicly available themes on Hugo's [website](https://themes.gohugo.io/) that are available for download that can be used in your Hugo project.
 
 ## Credits
 
 - The third-party theme used for this static website is [nostyleplease](https://github.com/hanwenguo/hugo-theme-nostyleplease), provided under the MIT License.
   
-- Referenced class readings:
+- Referenced readings:
   - Andrew Etter's *Modern Technical Writing*
   - Chapter 8 of William S. Pfeiffer's *Technical Communication: A Practical Approach*.
   
-- Peer reviewed in class by my group members:
+- Peer reviewed in class by:
   - Jade Lee
   - Ji Min Ryu
