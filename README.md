@@ -2,15 +2,15 @@
 
 This README intends to describe the technical process used to host a Markdown-formatted resume on a statically generated website.
 
-It will do so by connecting the technical writing methodologies and principles described in the course readings. Specifically:
+It will do so by connecting the technical writing methodologies and principles described in the course readings. Particularly:
 - Andrew Etter's *Modern Technical Writing*, and 
 - Chapter 8 of William S. Pfeiffer's *Technical Communication: A Practical Approach*.
 
-The intended audience of this README is Marvin McLaren, or anyone who is interested in technical writing and meets the technical prerequisites listed in the next section.
+The intended audience of this README is Marvin McLaren, or anyone who is interested in technical writing and meets the prerequisites listed in the next section.
 
 ## Prerequisites
 
-To follow the instructions detailed in the next section, you will need the following **prerequisites**:
+To follow the instructions detailed in the next section, need the following **prerequisites**:
 
 - [Go](https://go.dev/doc/install) installed on your system
 - [Git](https://git-scm.com/install/) installed on your system
@@ -111,17 +111,16 @@ Andrew Etter explains why hosting a static website is preferred over manual dist
 
 ## Further Resources
 
-There are external sources available on the internet which can provide more information on the tools and software used in this process:
+There are external resources available which can provide further information on the tools and software used in this process:
 
 1. [Markdown Guide](https://www.markdownguide.org/)
    - A comprehensive overview of Markdown's features and syntax. Also details features available in extended Markdown formats.
 2. [Hugo](https://gohugo.io/)
-   - The homepage of the static website framework used to generate this website. Provides extensive tutorials and documentation on usage, themes, and community features.
+   - The homepage of the static website framework used to generate this website. Provides tutorials and documentation on usage, themes, etc.
 3. [Git](https://git-scm.com/docs)
    - The reference guide for Git. Provides guides and information on common Git workflows such as cloning repositories, commiting files, switching branches, and so on. 
 4. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites)
-   - An introduction to using GitHub Pages to host websites online. Includes information on how the service works, configuration details, and creating custom workflows.
-
+   - An introduction to using GitHub Pages to host websites online. Includes information on configuration details, creating workflows, etc.
   
 ## FAQ
 
