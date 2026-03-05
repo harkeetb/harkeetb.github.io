@@ -11,7 +11,7 @@ title = "info"
   title = "Harkeet Bal (7939282)"
 
   [[entries.entries]]
-  title = "This is the static site I have generated using Hugo. It simply hosts my resume as a page. The README.md file is located in the root of the source tree of the repository."
+  title = "This is the static site I have generated using Hugo. It simply hosts my resume as a page. The README.md file is located in the root of the source tree of the repository (./content/posts/resume.md)"
 
 
 [[entries]]
