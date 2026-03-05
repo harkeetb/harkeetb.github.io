@@ -1,3 +1,5 @@
+# COMP 2600 Assignment 2: README.md
+
 ## Statement of Purpose
 
 This README intends to describe the technical process used to host a Markdown-formatted resume on a statically generated website.
@@ -9,6 +11,8 @@ It will do so by connecting the technical writing methodologies and principles d
 The intended audience of this README is Marvin McLaren, or anyone who is interested in technical writing and meets the prerequisites listed in the next section.
 
 ## Prerequisites
+
+![test](/assets/hugo_version.png)
 
 To follow the instructions detailed in the next section, need the following **prerequisites**:
 
@@ -31,6 +35,7 @@ Andrew Etter details the importance of building a website as a means of distribu
    - **Note**: You will also need to have Git installed on your device if it isn't already.
   
 2. Verify that Hugo has been installed correctly using the following command: `hugo version`
+![test](/assets/hugo_version.png)
 
 3. Create a new Hugo project using the following command: `hugo new project project_name`
    - Replace 'project_name' with what you would like to name your project
@@ -97,17 +102,22 @@ Andrew Etter explains why hosting a static website is preferred over manual dist
 6. Push (upload) the commits to your remote repository on GitHub using the following command: `git push origin main`
 
 7. Navigate back to the GitHub repository you created in step 2 and click on the 'Actions' menu bar on the top of the page.
-  
+![Actions](/assets/github_actions.png)
+
 8. Click the green 'New workflow' button on the left panel on the screen.
+![New workflow button](/assets/new_workflow.png)
 
 9. On the 'Choose your workflow' page, use the search bar to search for 'Hugo'
+![Search Hugo](/assets/search_hugo.png)
 
 10. Click 'Configure' on the Hugo workflow provided by GitHub
     - This will generate a `username.github.io/.github/hugo.yml` file in the remote project source tree.
-  
-11. Click the green 'Commit changes...' button on the right side of the screen to save the changes.
+![Configure button](/assets/configure_hugo.png)
 
-12. View your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
+1.  Click the green 'Commit changes...' button on the right side of the screen to save the changes.
+![Commit changes button](/assets/commit_changes.png)
+
+1.  View your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
 
 ## Further Resources
 
