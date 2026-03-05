@@ -12,3 +12,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
     isListGroupByDate = false
     isShowFooter      = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
