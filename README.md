@@ -99,28 +99,30 @@ Andrew Etter explains why hosting a static website is preferred over manual dist
 
 6. Push (upload) the commits to your remote repository on GitHub using the following command: `git push origin main`
 
-7. Navigate back to the GitHub repository you created in step 2 and click on the 'Actions' menu bar on the top of the page.
+7. Navigate back to the GitHub repository you created in (2.)
+
+8. Click on the 'Actions' menu bar on the top of the page.
    
 ![Actions](/assets/github_actions.png)
 
-8. Click the green 'New workflow' button on the left panel on the screen.
+9. Click the green 'New workflow' button on the left panel on the screen.
    
 ![New workflow button](/assets/new_workflow.png)
 
-9. Search for 'Hugo' using the search bar on the 'Choose your workflow' page
+10. Search for 'Hugo' using the search bar on the 'Choose your workflow' page
     
 ![Search Hugo](/assets/search_hugo.png)
 
-10.  Click 'Configure' on the Hugo workflow provided by GitHub
+11.  Click 'Configure' on the Hugo workflow provided by GitHub
     - This will generate a `username.github.io/.github/hugo.yml` file in the remote project source tree.
   
 ![Configure button](/assets/configure_hugo.png)
 
-11.  Click the green 'Commit changes...' button on the right side of the screen to save the changes.
+12.  Click the green 'Commit changes...' button on the right side of the screen to save the changes.
 
 ![Commit changes button](/assets/commit_changes.png)
 
-12.  View your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
+13.  View your live website at the following url: `https://username.github.io/`, where 'username' is your GitHub username.
 
 ## Further Resources
 
