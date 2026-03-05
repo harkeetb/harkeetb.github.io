@@ -48,8 +48,7 @@ Andrew Etter details the importance of building a website as a means of distribu
 
 7. Test that your web site is rendering correctly by using the command: `hugo server`
    - This will open a port on localhost for you to access using your web browser:
-
-   ![Hugo server](/assets/hugo%20server.png)
+   ![Hugo server](/assets/hugo_server.png)
 
 You have successfully generated a static website using Hugo.
 
