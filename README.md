@@ -107,7 +107,7 @@ Andrew Etter explains why hosting a static website is preferred over manual dist
    
 ![New workflow button](/assets/new_workflow.png)
 
-9. On the 'Choose your workflow' page, use the search bar to search for 'Hugo'
+9. Search for 'Hugo' using the search bar on the 'Choose your workflow' page
     
 ![Search Hugo](/assets/search_hugo.png)
 
