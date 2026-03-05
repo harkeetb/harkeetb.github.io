@@ -8,7 +8,7 @@ title = "info"
   title = "Assignment 2"
 
   [[entries.entries]]
-  title = "This is the static site I have generated using Hugo. It simply host my resume as a page. The README is located in the root of the source tree. "
+  title = "This is the static site I have generated using Hugo. It simply hosts my resume as a page. The README.md file is located in the root of the source tree. "
 
 
 [[entries]]
